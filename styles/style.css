@@ -4,7 +4,7 @@ div.container {
   /* 
   Первый способ отменить схлопывание 
   */
-  /* overflow: auto; */
+  overflow: auto;
 }
 div.container > div {
   width: 200px;
@@ -18,7 +18,7 @@ div.container > div {
 } 
 #elem2 {
   background-color: greenyellow;
-  float: left;
+  float: left ;
 }
 #elem3 {
   background-color: yellow;
