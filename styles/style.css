@@ -1,12 +1,4 @@
-div.container {
-  width: 100%;
-  background-color: aquamarine;
-  /* 
-  Первый способ отменить схлопывание 
-  */
-  overflow: auto;
-}
-div.container > div {
+div {
   width: 200px;
   height: 200px;
   float: left;
@@ -14,13 +6,14 @@ div.container > div {
 
 #elem1 {
   background-color: crimson;
-  float: left;
 } 
 #elem2 {
   background-color: greenyellow;
-  float: left ;
 }
 #elem3 {
-  background-color: yellow;
-  float: left;
+  background-color: blue;
+  clear: left;
+}
+#elem4 {
+  background-color: gold;
 }
