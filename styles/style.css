@@ -5,10 +5,13 @@ div {
 
 #elem1 {
   background-color: crimson;
+  float: left;
 } 
 #elem2 {
   background-color: greenyellow;
+  float: left;
 }
 #elem3 {
   background-color: yellow;
+  float: left;
 }
