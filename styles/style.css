@@ -1,0 +1,14 @@
+div {
+  width: 200px;
+  height: 200px;
+}
+
+#elem1 {
+  background-color: crimson;
+} 
+#elem2 {
+  background-color: greenyellow;
+}
+#elem3 {
+  background-color: yellow;
+}
