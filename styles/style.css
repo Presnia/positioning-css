@@ -1,6 +1,15 @@
-div {
+div.container {
+  width: 100%;
+  background-color: aquamarine;
+  /* 
+  Первый способ отменить схлопывание 
+  */
+  /* overflow: auto; */
+}
+div.container > div {
   width: 200px;
   height: 200px;
+  float: left;
 }
 
 #elem1 {
@@ -9,11 +18,9 @@ div {
 } 
 #elem2 {
   background-color: greenyellow;
-  float: right;
+  float: left;
 }
 #elem3 {
   background-color: yellow;
-  /* float: left; */
-  width: 250px;
-  height: 250px;
+  float: left;
 }
