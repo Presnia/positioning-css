@@ -10,17 +10,20 @@
 .left-bar {
   width: 30%;
   height: 800px;
-  background-color: yellow;   
+  background-color: yellow;
+  float: left;
 }
 .main {
   width: 50%;
   height: 800px;
   background-color: aqua;
+  float: left;
 }
 .right-bar {
   width: 20%;
   height: 800px;
   background-color: crimson;
+  float: left;
 }
 #footer {
   width: 100%;
