@@ -1,8 +1,17 @@
-.container {
-  width: 50%;
-  height: 300px;
-  margin: 0 auto;
-  text-align: justify;
-  border: 2px solid black;
-  overflow: visible;
+div {
+  width: 100px;
+  height: 100px;
+  background-color: darkcyan;
+  color: white;
+  text-align: center;
+  float: left;
+  margin: 5px;
+}
+
+div:nth-child(3) {
+  display: none;
+}
+
+div:nth-child(6) {
+  visibility: hidden;
 }
