@@ -1,19 +1,8 @@
-div {
-  width: 200px;
-  height: 200px;
-  float: left;
-}
-
-#elem1 {
-  background-color: crimson;
-} 
-#elem2 {
-  background-color: greenyellow;
-}
-#elem3 {
-  background-color: blue;
-  clear: left;
-}
-#elem4 {
-  background-color: gold;
+.container {
+  width: 50%;
+  height: 300px;
+  margin: 0 auto;
+  text-align: justify;
+  border: 2px solid black;
+  overflow: auto;
 }
